@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+table td{
+  border: 2px solid #ADEFD1FF;
+  height: 100px;
+  width: 100px;
+  color: yellow;
+  font-size: 30px
+
+}
+.container{
+  display: flex;
+  align-items: center;
+  margin-left: 42%;
+  
+}
+body{background-color: #00203FFF;
+  color: aliceblue;
+
+}
+button{
+  margin-top: 2%;
+  background-color: red;
+  color: white;
+  font-size: 30px;
+}
+.drawfor{
+  font-size: 30px;
+}
+/* Media query for mobile devices */
+@media screen and (max-width: 767px) {
+  .container {
+    margin-left: 12%;
+    /* Your styles for mobile devices here */
+  }
+}
